@@ -54,3 +54,5 @@ const paddletekPaddles = [
     url: "https://www.paddletek.com",
   },
 ];
+
+export default paddletekPaddles

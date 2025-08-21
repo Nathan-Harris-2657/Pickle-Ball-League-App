@@ -1,5 +1,16 @@
 #navContainer1{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
+    font-family: 'Permanent Marker';
+    font-size: 1.8rem;
+}
+#navContainer1 a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease;
+}
+#navContainer1 a:hover{
+    text-decoration: none;
+    color: rgb(215, 215, 215);
 }

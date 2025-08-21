@@ -3,7 +3,8 @@ import './App.css'
 
 // Components
 import NavBar1 from '../components/NavBar'
-import NavBar2 from '../components/NavBar2'
+import Logo from '../components/Logo'
+import PickleballFacts from '../components/PickleballFacts'
 
 // Pages
 import Leagues from '../pages/leagues'
@@ -14,16 +15,27 @@ import Register from '../pages/register'
 
 // css
 import '../css/navbar1.css'
-import '../css/navbar2.css'
+import '../css/logo.css'
+import Accessories from '../pages/accessories'
 
 function App() {
   
 
   return (
     <>
+      <div id='logoContainer'>
+        <Logo/>
+      </div>
+
+
       <div id='navBarContainer'>
-        <NavBar1/>
-        <NavBar2/>
+        <div id='navBarContainer2'>
+          <NavBar1/>
+        </div>
+      </div>
+
+      <div id='pickleBallFacts'>
+        <PickleballFacts/>
       </div>
         <Routes>
           <Route path='/leagues' element={<Leagues/>}/>
@@ -31,6 +43,7 @@ function App() {
           <Route path='/paddles' element={<Paddles/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/accessories' element={<Accessories/>}/>
           
         </Routes>
      

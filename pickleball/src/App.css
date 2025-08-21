@@ -1,6 +1,30 @@
+body{
+  background-image: linear-gradient(rgb(68, 125, 155),rgb(215, 215, 215),rgb(68, 125, 155));
+  background-repeat: none;
+  background-attachment: fixed;
+}
 #navBarContainer{
   display: flex;
   justify-content: center;
-  gap: 20rem;
+}
+
+#navBarContainer2{
+  background-image:linear-gradient(rgb(255, 111, 54),rgb(254, 119, 67),rgb(255, 111, 54));
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  width:max-content;
+  padding: .5rem;
+  
  
+}
+#logoContainer{
+  display: flex;
+  justify-content: center;
+}
+#pickleBallFacts{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Sansation';
 }
