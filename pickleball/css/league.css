@@ -7,6 +7,7 @@
     width: fit-content;
     border-radius: 10px;
     border: 1px solid black;
+
 }
 #courtImg{
     border-radius: 10px;
@@ -15,4 +16,39 @@
     height: auto;
     border: 1px solid white;
     box-shadow: 0 0 10px;
+}
+#leagueContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 2rem;
+}
+.leagueLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(215, 215, 215);
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    border: solid 1px white;
+    transition: all .5s ease;
+    
+}
+.leagueLink:hover{
+    scale: 1.1;
+    
+}
+.leagueLink a{
+    text-decoration: none;
+    font-family: 'Permanent Marker';
+    color: black;
+    transition: all .5s ease;
+    
+    
+}
+.leagueLink a:hover{
+    color: rgb(254, 119, 67);
 }

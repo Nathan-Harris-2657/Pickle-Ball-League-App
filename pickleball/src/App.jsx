@@ -13,6 +13,9 @@ import Paddles from '../pages/paddles'
 import Login from '../pages/login'
 import Register from '../pages/register'
 import Accessories from '../pages/accessories'
+import UpcomingLeagues from '../pages/upcomingleagues'
+import LeagueSignUp from '../pages/leaguesignup'
+import HowLeaguesWork from '../pages/howleagueswork'
 
 // css
 import '../css/navbar1.css'
@@ -47,6 +50,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/accessories' element={<Accessories/>}/>
+          
           
         </Routes>
      
