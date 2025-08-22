@@ -18,6 +18,7 @@ import Accessories from '../pages/accessories'
 import '../css/navbar1.css'
 import '../css/logo.css'
 import '../css/paddles.css'
+import '../css/league.css'
 
 
 function App() {
