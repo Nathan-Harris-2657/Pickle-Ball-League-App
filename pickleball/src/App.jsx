@@ -12,11 +12,13 @@ import AboutPickleBall from '../pages/aboutpickleball'
 import Paddles from '../pages/paddles'
 import Login from '../pages/login'
 import Register from '../pages/register'
+import Accessories from '../pages/accessories'
 
 // css
 import '../css/navbar1.css'
 import '../css/logo.css'
-import Accessories from '../pages/accessories'
+import '../css/paddles.css'
+
 
 function App() {
   

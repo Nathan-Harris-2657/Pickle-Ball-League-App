@@ -1,0 +1,24 @@
+#brandContainer{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   place-self: center;
+   column-gap: 8rem;
+   row-gap: 4rem;
+   margin: 4rem;
+   place-content: center;  
+}
+
+#brandContainer a{
+    align-self: center;
+}
+
+.pickleBallLogos{
+    width: 25rem;
+    height: auto;
+    transition: all .5s ease;
+}
+.pickleBallLogos:hover{
+    scale: 1.1;
+   
+}
+
