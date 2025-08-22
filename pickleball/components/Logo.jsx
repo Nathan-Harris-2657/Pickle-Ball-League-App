@@ -1,10 +1,10 @@
-import Logo from '../assets/logo.png' 
+import Logo2 from '../assets/logo2.png' 
 
 function CompanyLogo(){
     return(
         <>
         
-            <img id='logo' src={Logo} alt="Company Logo" />
+            <img id='logo' src={Logo2} alt="Company Logo" />
        
         </>
     )
